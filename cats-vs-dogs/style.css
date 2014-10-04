@@ -83,12 +83,14 @@ nav{
 	font-weight:bold;
 	text-transform:uppercase;
 	text-align:center;
+	padding:1px;
 }
 
 li {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
+	text-align:middle;
 	float:right;
 }
 
@@ -97,6 +99,8 @@ h2{
 	color:black;
 	font-size:20px;
 	font-weight:bold;
+	padding:10px;
+	
 }
 
 section{
@@ -104,7 +108,7 @@ section{
 	line-height:1.2em;
 	text-align:left;
 	padding: 12px;
-	width:300px;
+	width:400px;
 	
 }
 
@@ -118,7 +122,7 @@ hr {
 	background-color: black;
 	height: 3px;
 	width: 100%;
-	
+	margin:1px;
 }
 
 
@@ -127,6 +131,7 @@ img{
 	padding:10px;
 	margin:10px;
 	width:400px;
+	
 }
 
 p{
@@ -155,5 +160,6 @@ p{
 #dogs{
 	float:left;
 }
+
 
 
