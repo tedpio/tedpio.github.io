@@ -89,7 +89,7 @@ li {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
-	
+	float:right;
 }
 
 h2{
@@ -100,21 +100,17 @@ h2{
 }
 
 section{
-	font-size:10px;
+	font-size:14px;
 	line-height:1.2em;
-	text-align:justify;
+	text-align:left;
 	padding: 12px;
+	width:300px;
 	
 }
 
-section #dog_text{
-	float:right;
-}
 a{
-	color:red;
-	
+	color:red;	
 }
-
 
 hr {
 	border: 0;
@@ -131,6 +127,33 @@ img{
 	padding:10px;
 	margin:10px;
 	width:400px;
+}
+
+p{
+	font-size:12px;
+
+}
+
+#copyright{
+	text-align:right;
+	float:right;
+	padding:6px;
+	margin:6px;
+}
+
+#wiki{
+	text-align:left;
+	float:left;
+	padding:6px;
+	margin:6px;
+}
+
+#cats{
+	float:right;
+}
+
+#dogs{
+	float:left;
 }
 
 
