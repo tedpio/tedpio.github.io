@@ -72,11 +72,14 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 body {
+
   margin:0 auto;
   width:900px;
+  height:900px;
 }
 
 nav{
+	width:800px;
 	font-family:georgia;
 	color:black;
 	font-size:24px;
@@ -87,7 +90,7 @@ nav{
 }
 
 li {
-    list-style-type: none;
+   
     margin: 10px;
     padding: 10px;
 	text-align:middle;
@@ -125,18 +128,16 @@ hr {
 	margin:1px;
 }
 
-
-
 img{
-	padding:10px;
-	margin:10px;
-	width:400px;
 	
+	padding:5px;
+	margin:10px;
+	width:400px;	
 }
+
 
 p{
 	font-size:12px;
-
 }
 
 #copyright{
