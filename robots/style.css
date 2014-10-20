@@ -36,9 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-
 	font-family:arial;
-	
 }
 
 ol, ul {
@@ -95,7 +93,7 @@ nav#top-nav {
 
 nav#main-menu {
 	 height:30px;
-	 background-color:#996633;
+	 background-color:saddlebrown;
 }
 
 nav#main-menu ul li { display:block; float:left; padding:0 5px; }
@@ -105,32 +103,30 @@ nav#main-menu ul li a { display:block; color:white; padding:5px 5px; background-
  
 aside#sidebar {
 	 float:right;
-	 width:220px;
-	 padding:50px 10px; }
+	 width:400px;
+ }
 
 footer#site-footer { 
-	   clear:all; 
-	   background-color:#996633;
-	   text-color:white; 
-	   padding:20px 0px;
-	   position:absolute;
+	   clear:both; 
+	   background-color:saddlebrown;
+	   position:relative;
        bottom:0;
 	   width:100%;
-	   height:60px;
+	   height:200px;
 	  
    }
    
    #site-header{
 	   margin:0 auto;
-	    background-color:green;
+	    background-color:tan;
 		width:500px;
    }
    #site-wrapper{
-	   background-color:red;
+	   background-color:tan;
    }
 
    #menu-wrapper{
-   	 background-color:tan;
+   	 background-color:saddlebrown;
    }
    
    #main-menu{
@@ -141,6 +137,10 @@ footer#site-footer {
    #page{
 	   float:left;
 	   width:300px;
+   }
+   
+   #content-wrapper{
+	  
    }
    
 
