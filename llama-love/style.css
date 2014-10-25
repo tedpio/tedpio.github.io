@@ -53,3 +53,67 @@ table {
 /* -----------------END RESET---------------- */
 
 
+
+
+
+
+
+body{
+	margin: 0 auto;
+	width:900px;
+	
+}
+
+#main-content{
+	position:relative;
+	top:100px;
+	font-family:arial;
+}
+
+#left-llama{
+    float:left;
+       padding:10px;
+       margin:10px;
+	   width:400px;
+}
+
+#left-pic{
+	float:left;
+    width:40%;
+    height: auto;
+	margin:0px 10px 10px 0px;
+}
+
+
+
+#right-llama{
+   	   float:right;
+       padding:10px;
+       margin:10px;
+	   width:400px;	   
+}
+
+#right-pic{
+	float:left;
+    width:40%;
+    height: auto;
+	margin:0px 10px 10px 0px;
+	
+}
+
+p{
+	font-size:12px;
+}
+
+
+h1{
+	font-size:24px;
+	font-weight:bold;
+}
+
+h2{
+	font-size:12px;
+	font-weight:light;
+	line-height:2em;
+	color:gray;
+}
