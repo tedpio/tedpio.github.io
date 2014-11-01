@@ -79,12 +79,20 @@ body {
 }
 
 header{
-	margin: 0 auto;
+	margin-left:;
 	width:100%;
 	position:relative;
 	top:10px;
 }
 
+#logo{
+	display:block;
+	margin: 0 auto;
+	clear:both;
+	margin-bottom:30px;
+
+	
+}
 
 nav{
 	
@@ -188,7 +196,6 @@ h2{
 		font-size:1.5em;
 		font-weight:bold;	
 }
-
 
 
 
