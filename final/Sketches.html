@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	   <link rel="stylesheet" type="text/css" href="style.css">
+ <title>Ted Pioli</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="unslider/src/unslider.min.js"></script>
+ 
+  </head> 
+  
+<body>
+	
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.png" alt="Ted Pioli"/></a>
+		</div>
+	
+	
+	
+	<header>
+			  <nav>
+		  		<ul id="Main-nav">
+	  			<li><a href="index.html">Work</a></li>
+	  			<li><a href="Sketches.html">Sketches</a></li>
+	  			<li><a href="Contact.html">contact</a></li>
+		  		</ul>
+			  </nav>
+	 </header>
+	
+	
+	<script>
+	$(function() {
+	    $('.banner').unslider();
+	});
+	
+	
+	if(window.chrome) {
+		$('.banner li').css('background-size', '100% 100%');
+	}
+
+	$('.banner').unslider({
+		arrows: true,
+		fluid: true,
+		dots: true
+	});
+
+	//  Find any element starting with a # in the URL
+	//  And listen to any click events it fires
+	$('a[href^="#"]').click(function() {
+		//  Find the target element
+		var target = $($(this).attr('href'));
+
+		//  And get its position
+		var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
+
+		//  jQuery will return false if there's no element
+		//  and your code will throw errors if it tries to do .offset().left;
+		if(pos) {
+			//  Scroll the page
+			$('html, body').animate({
+				scrollTop: pos.top,
+				scrollLeft: pos.left
+			}, 1000);
+		}
+
+		//  Don't let them visit the url, we'll scroll you there
+		return false;
+	});
+
+	var GoSquared = {acct: 'GSN-396664-U'};
+	
+	
+	
+	</script>
+
+
+	<div class="banner">
+	    <ul>
+	        <li><img src="Sketches/sketch01.png" alt="sketch"/></li>
+	        <li><img src="Sketches/sketch02.png" alt="sketch"/></li>
+	        <li><img src="Sketches/sketch03.png" alt="sketch"/></li>
+			<li><img src="Sketches/sketch04.png" alt="sketch"/></li>
+			<li><img src="Sketches/sketch05.png" alt="sketch"/></li>
+			<li><img src="Sketches/sketch06.png" alt="sketch"/></li>
+	    </ul>
+	</div>
+	
+
+
+<footer>
+	<nav id="footer-nav">
+	<li><a href="mailto:youremailaddress">Ejpioli@massart.edu</a></li>
+	<li><a href="https://www.behance.net/Tedpio">Behance</a></li>
+	<li><a href="https://www.linkedin.com/profile/view?id=356929801&trk=nav_responsive_tab_profile_pic">Linkdin</a></li>
+	</nav>
+		<p id="copyright"> Copyright Ted Pioli 2014 All rights Reserved</p>
+	</footer>
+	
+	
+	
+  </body>
+</html>
+
+				
